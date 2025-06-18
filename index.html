@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Pair Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Pair Generator</h1>
+        <label for="classSelector">Select a Class:</label>
+        <select id="classSelector">
+            <option value="advanced">Advanced Study in Computer Science</option>
+            <option value="cs1">Computer Science 1</option>
+            <option value="art">Art & Computer Science</option>
+        </select>
+        <button onclick="generatePairs()">Generate Pairs</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
